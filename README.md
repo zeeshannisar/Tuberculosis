@@ -15,7 +15,7 @@ and lower efficacy of the smear test have led the World Health Organization (WHO
       + Implementation
       + Statistical Results
       + Visualization
-  + [Segmentation (Pixel-level Detection) of Tuberculosis Tuberculosis Infectious Regions](#segmentation-(Pixel-level-detection)-of-tuberculosis-tuberculosis-infectious-regions)
+  + [Segmentation (Pixel-level Detection) of Tuberculosis Tuberculosis Infectious Regions](#segmentation-(pixel-level-detection)-of-tuberculosis-tuberculosis-infectious-regions)
     + [Dataset Description](#dataset-description)
     + [Segmentation with FCN-8 Architecture](#segmentation-with-fcn-8-architecture)
       + Implementation
