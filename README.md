@@ -15,9 +15,9 @@ and lower efficacy of the smear test have led the World Health Organization (WHO
       + Implementation
       + Statistical Results
       + Visualization
-  + Segmentation (Pixel-level Detection) of Tuberculosis Tuberculosis Infectious Regions
-    + Dataset Description and Preprocessing
-    + Segmentation of Tuberculosis Infectious Regions with FCN-8 Architecture
+  + [Segmentation (Pixel-level Detection) of Tuberculosis Tuberculosis Infectious Regions](#segmentation-(Pixel-level-detection)-of-tuberculosis-tuberculosis-infectious-regions)
+    + [Dataset Description and Preprocessing](#dataset-description-and-preprocessing)
+    + [Segmentation with FCN-8 Architecture](#aegmentation-with-fcn-8-architecture)
       + Implementation
       + Visualization
 ### Classification of Tuberculosis from Chest-X-rays:
@@ -47,7 +47,7 @@ CXRs. Using 80:20 train/validation split I have split the total of 800 CXRs to 6
 Pixel-Level masks/labels for Tuberculosis Infectious Regions aren't publicaly available yet. A [paper](https://arxiv.org/abs/1602.04984) was arxived in 2016 in which the authors have hired radiologists to mask/label the infectious region of TB lesions in a chest-Xray. The authors of this paper have used these masks/labels to validate their proposed methodology of detecting the TB lesions with weak supervision using deconvolutional-feature stacking. I have somehow managed to get these masks/labels by requesting the authors of that paper. If you are a researcher or healthcare worker and you would like to get these masks/labels to validate your weakly supervised model or to propose a novel supervised model for pixel-level detection of TB lesion in a CXR, please reach out to zshnnisar@gmail.com. The pixel-labels are available only for Shenzhen Chest-Xrays. The original images and masks/labels were of size (500 * 500) but I have write a [script](https://github.com/zeeshannisar/Tuberculosis/blob/master/Segmentation/datasets/Preprocessing%20of%20Dataset%20for%20Pulmonary%20TB%20Segmentation%20from%20Chest%20X-rays.ipynb) to pad on edges for both images and masks/labels to get a size of (512 * 512).
 
 
-#### Segmentation of Tuberculosis Infectious Regions with FCN-8 Architecture:
+#### Segmentation with FCN-8 Architecture:
 ##### Implementation:
 [Code: Google Colab Notebook](https://github.com/zeeshannisar/Tuberculosis/blob/master/Segmentation/TB%20Segmentation%20from%20Chest%20X-rays%20with%20FCN8%20Architecture.ipynb)
 ##### Visualization:
