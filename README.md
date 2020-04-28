@@ -1,4 +1,4 @@
-# Computer Aided Diagnostic System for Tuberculosis Identification and Segmentation from Chest X-rays:
+# Computer Aided Diagnostic System for Tuberculosis Identification and Segmentation(Pixel-Level Detection) from Chest X-rays:
 Tuberculosis (TB) is a contagious disease designated as foremost source of death across the world. Although TB can be treated with high
 change of cure, a large number of patients decrease for not getting timely and correct diagnosis, mainly due to insufficient radiography
 and radiologists. If left misdiagnosed and untreated, every active TB (sputum positive) case can contaminate 10 to 15 individuals in a
