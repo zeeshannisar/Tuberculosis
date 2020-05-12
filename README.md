@@ -15,7 +15,8 @@ and lower efficacy of the smear test have led the World Health Organization (WHO
       + Implementation
       + Statistical Results
       + Visualization
-   + [Classification using Transfer-Learning with Pretrained-MobileNet-V2](#classification-using-transfer-learning-with-pretrained-mobilenet-v2) 
+      
+    + [Classification using Transfer-Learning with Pretrained-MobileNet-V2](#classification-using-transfer-learning-with-pretrained-mobilenet-v2) 
       + Implementation
       + Statistical Results
       + Visualization
@@ -25,6 +26,7 @@ and lower efficacy of the smear test have led the World Health Organization (WHO
     + [Segmentation with FCN-8 Architecture](#segmentation-with-fcn-8-architecture)
       + Implementation
       + Visualization
+
 ### Classification of Tuberculosis from Chest-X-rays:
 
 #### Dataset Description and Preprocessing:
@@ -57,6 +59,7 @@ CXRs. Using 80:20 train/validation split I have split the total of 800 CXRs to 6
 <p align="center">
     <img src="https://github.com/zeeshannisar/Tuberculosis/blob/master/ReadMe%20Images/mobilenetv2-visualization.png">
 </p>
+
 ### Segmentation of Tuberculosis Tuberculosis Infectious Regions:
 To the best of my knowledge, there is no such work done for pixel-level detection of TB lesion in a CXR. In most of the previous works the authors tried to detect pixel level labels with weak supervision. One of the main reason for this is that there is no availability of pixel-level datasets for TB infectious regions and to acquire these is so time consuimg and costly process. We have also proposed a novel approach for the detection of pixel-level labels with Generative Adversarial Networks using weak-supervision. This work is available at my [GitHub Repository](https://github.com/zeeshannisar/CX_GAN).   
 #### Dataset Description:
